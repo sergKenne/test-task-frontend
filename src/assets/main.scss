@@ -1,0 +1,26 @@
+@import './base.scss';
+
+.container {
+  max-width:  1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main {
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    border: 2px solid #ddd;
+    padding: 16px;
+    min-height: 480px;
+    align-content: flex-start;
+    
+  }
+}
